@@ -1,0 +1,12 @@
+.footer {
+   height: 102px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer p {
+   font-size: 20px;
+   color: var(--dark-10);
+   font-family: "Sora", sans-serif;
+}

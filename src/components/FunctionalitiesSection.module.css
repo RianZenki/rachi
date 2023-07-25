@@ -1,0 +1,33 @@
+.functionalities-section {
+	height: 475px;
+	text-align: center;
+}
+
+.functionalities-section h2 {
+	font-size: 40px;
+   margin-top: 56px;
+}
+
+.functionalities-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 130px;
+   margin-top: 130px;
+}
+
+.functionalities-item {
+	max-width: 210px;
+}
+
+.functionalities-item h3 {
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+
+.functionalities-item p {
+	font-size: 16px;
+	line-height: 26px;
+	color: var(--dark-20);
+}

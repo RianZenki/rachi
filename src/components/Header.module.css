@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 10%;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	gap: 66px;
+}
+
+.nav li {
+	color: var(--dark-20);
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.nav li a {
+   color: var(--dark-20);
+	font-weight: 500;
+	font-size: 18px;
+   text-decoration: none;
+   transition: color .3s;
+}
+
+.nav li a:hover {
+   color: var(--dark-10);
+}

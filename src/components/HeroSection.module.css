@@ -1,0 +1,47 @@
+.hero-section {
+	height: 560px;
+	background-color: var(--brand-color-light);
+	width: 100%;
+	padding: 0 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+
+.hero-left {
+	width: 50%;
+}
+
+.hero-left h1 {
+	font-size: 3rem;
+	line-height: 3.75rem;
+	margin-bottom: 50px;
+}
+
+.hero-left h1 span {
+	display: block;
+}
+
+.hero-left button {
+	width: 200px;
+	padding: 16px 36px;
+	background-color: var(--brand-color);
+	border: none;
+	border-radius: 50px;
+	box-shadow: 1px 4px 3px rgba(19, 125, 224, 0.5);
+	color: var(--dark-40);
+	font-size: 1.25rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.hero-left button:hover {
+	background-color: var(--brand-color-dark);
+}
+
+.hero-section img {
+	width: 50%;
+	min-width: 350px;
+}

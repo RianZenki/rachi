@@ -1,0 +1,126 @@
+.plans-section {
+	height: 850px;
+	text-align: center;
+	padding: 50px 10%;
+}
+
+.plans-section .plans-section-info {
+	text-align: center;
+}
+
+.plans-section .plans-section-info h2 {
+	font-size: 40px;
+}
+
+.plans-section .plans-section-info p {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--dark-20);
+	margin: 16px auto 0px;
+	max-width: 570px;
+}
+
+.plans-list {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	margin-top: 96px;
+}
+
+.plans-list .plans-item {
+	background-color: var(--brand-color-light);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 56px 35px 64px;
+	border-radius: 8px;
+}
+
+.plans-list .plans-item h3 {
+	font-size: 24px;
+}
+
+.plans-list .plans-item .plans-item-price {
+	margin-top: 60px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: var(--dark-10);
+	font-weight: 700;
+	line-height: 60px;
+}
+
+.plans-list .plans-item .plans-item-price .currency {
+	font-size: 20px;
+	align-self: flex-end;
+}
+
+.plans-list .plans-item .plans-item-price .value {
+	font-size: 50px;
+}
+
+.plans-list .plans-item .plans-item-price .month {
+	font-size: 26px;
+	align-self: flex-start;
+}
+
+.plans-list .plans-item .plans-item-info {
+	margin-top: 47px;
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--dark-20);
+}
+
+.plans-list .plans-item button {
+	width: 230px;
+	height: 43px;
+	padding: 8px 80px 8px 80px;
+	border: none;
+	border-radius: 50px;
+	background-color: var(--brand-color);
+	box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+	cursor: pointer;
+	color: var(--dark-40);
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 58px;
+	transition: transform 0.3s;
+}
+
+.plans-list .plans-item button:hover {
+	transform: scale(120%);
+}
+
+.plans-list div:nth-child(2) {
+	background-color: var(--dark-10);
+	color: var(--dark-40);
+   padding-top: 32px;
+}
+
+.plans-list div:nth-child(2) h3 {
+	font-size: 32px;
+	color: var(--dark-40);
+}
+
+.plans-list div:nth-child(2) .preferred {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 32px;
+	background-color: var(--brand-color);
+	border-radius: 15px;
+   margin-top: 14px;
+}
+
+.plans-list div:nth-child(2) .plans-item-price {
+   color: var(--dark-40);
+   margin-top: 32px;
+}
+
+.plans-list div:nth-child(2) .plans-item-info {
+   color: var(--dark-30);
+}
